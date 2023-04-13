@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
 import Spinner from 'react-bootstrap/Spinner';
-import { DiGithubBadge } from "react-icons/di";
+import { BsGithub } from "react-icons/bs";
 import { GoDeviceDesktop } from "react-icons/go";
 import { Link } from 'react-router-dom';
 import imgTimeToPlan from '../../assets/img/timetoplan.jpg'
@@ -77,7 +77,7 @@ const Projects = () => {
                     <strong>✅Tecnologías: </strong> {item.technologies.join(', ')}
                   </Card.Text>
                   <div>
-                    <Card.Link className='buttonPrimary' variant="primary" href={item.github} target='_blank'><DiGithubBadge/> Github</Card.Link>
+                    <Card.Link className='buttonPrimary' variant="primary" href={item.github} target='_blank'><BsGithub/> Github</Card.Link>
                     <Card.Link className='buttonSecondary' variant="outline-primary" href={item.deploy} target='_blank'><GoDeviceDesktop/> Deploy</Card.Link>
                   </div>
                 </Card.Body>

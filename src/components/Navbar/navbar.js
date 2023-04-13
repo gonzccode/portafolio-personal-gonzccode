@@ -13,7 +13,7 @@ const NavbarPortfolio = () => {
                 <Nav.Link className='navLink' href="/sobre-mi"><strong>Sobre mí</strong></Nav.Link>
                 <Nav.Link className='navLink' href="/tecnologias"><strong>Tecnologías</strong></Nav.Link>
                 <Nav.Link className='navLink' href="/proyectos"><strong>Projectos</strong></Nav.Link>
-                <Nav.Link className='navLink' href="/"><strong>Contacto</strong></Nav.Link>
+                <Nav.Link className='navLink' href="/contactame"><strong>Contacto</strong></Nav.Link>
               </Nav>
             </Container>
           </Navbar>

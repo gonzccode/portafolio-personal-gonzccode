@@ -11,6 +11,7 @@ function App() {
   const Projects = lazy(() => import('./components/Projects/projects'))
   const AboutMe = lazy(() => import('./components/AboutMe/aboutMe'))
   const Technologies = lazy(() => import('./components/Technologies/technologies'))
+  const Contact = lazy(() => import('./components/Contact/contact'))
 
   return (
     <div className="App">
@@ -22,6 +23,7 @@ function App() {
             <Route path='/proyectos' element={<Projects/>}/>
             <Route path='/sobre-mi' element={<AboutMe/>}/>
             <Route path='/tecnologias' element={<Technologies/>}/>
+            <Route path='/contactame' element={<Contact/>}/>
           </Routes>
         </Suspense>
       </BrowserRouter>
