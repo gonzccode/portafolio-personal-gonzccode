@@ -9,6 +9,30 @@
     text-align: left;
 }
 
+.buttonPrimary {
+    text-decoration: none;
+    background-color: #1c76c5;
+    border: 1px solid #1c76c5;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    &:hover {
+        background-color: #FFFFFF;
+        color: #1c76c5;
+    }
+}
+
+.buttonSecondary {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border: 1px solid #1c76c5;
+    padding: 5px 10px;
+    color: #1c76c5;
+    &:hover {
+        background-color: #1c76c5;
+        color: #FFFFFF;
+    }
+}
+
 /*Loading Spinner*/
 #spinnerSection{
     //min-height: 100vh;
@@ -184,6 +208,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 25px;
 }
 
 .cardsProjects {
@@ -196,9 +221,9 @@
 .cardProject {
     width: 22rem;
     height: 27rem;
-    color: black;
-    background-color: white;
-    //opacity: 0.3;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 3px solid #1c76c5;
 }
 
 .cardImgProject {
@@ -206,10 +231,11 @@
 }
 
 .cardBodyProject {
-    
-    opacity: 0.4;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
+
+/*Contacto*/
+

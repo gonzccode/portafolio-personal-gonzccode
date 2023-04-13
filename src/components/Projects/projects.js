@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
 import Spinner from 'react-bootstrap/Spinner';
+import { DiGithubBadge } from "react-icons/di";
+import { GoDeviceDesktop } from "react-icons/go";
+import { Link } from 'react-router-dom';
 import imgTimeToPlan from '../../assets/img/timetoplan.jpg'
 import imgProjectStudent from '../../assets/img/projectstudent.jpg'
 import imgLasClarisas from '../../assets/img/lasclarisastours.jpg'
@@ -31,7 +34,7 @@ const Projects = () => {
     {
       id: 3,
       project: 'Time to Plan',
-      description: 'Proyecto acerca de reloj y lists Pomodoro, se puede agregar tareas y quitarlas, se queda guardada la información.',
+      description: 'Proyecto acerca de un reloj y lista Pomodoro, se puede agregar tareas y quitarlas, se queda guardada la información.',
       technologies: ['HTML', 'CSS', 'JS', 'Bootstrap', 'SweetAlert'],
       image: imgTimeToPlan,
       github: 'https://github.com/gonzccode/proyecto-pomodoro',
@@ -61,7 +64,6 @@ const Projects = () => {
             </strong>
           </h3>
           <br/>
-          <br/>
           <div className='cardsProjects'>
             {
               arrayProjects.map((item, index) => 
@@ -72,11 +74,11 @@ const Projects = () => {
                   <Card.Text style={{textAlign: 'justify'}}>
                     {item.description}
                     <br/>
-                    <strong>Tecnologías: </strong> {item.technologies.join(', ')}
+                    <strong>✅Tecnologías: </strong> {item.technologies.join(', ')}
                   </Card.Text>
                   <div>
-                    <Card.Link variant="primary" href={item.github} target='_blank'>Github</Card.Link>
-                    <Card.Link variant="outline-primary" href={item.deploy} target='_blank'>Deploy</Card.Link>
+                    <Card.Link className='buttonPrimary' variant="primary" href={item.github} target='_blank'><DiGithubBadge/> Github</Card.Link>
+                    <Card.Link className='buttonSecondary' variant="outline-primary" href={item.deploy} target='_blank'><GoDeviceDesktop/> Deploy</Card.Link>
                   </div>
                 </Card.Body>
               </Card>
@@ -84,6 +86,14 @@ const Projects = () => {
             }
             
           </div>
+          <br/>
+          <Link to={'https://github.com/gonzccode?tab=repositories'} target='_blank' style={{color: 'white', textDecoration: 'none'}}>
+            <h5>
+              <strong>
+              👉 Más proyectos 👈
+              </strong>
+            </h5>
+          </Link>
         </div>
       }
     </>
