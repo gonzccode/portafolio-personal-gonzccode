@@ -3,6 +3,12 @@
     font-weight: bold;
 }
 
+.blueH3 {
+    color: #1c76c5;
+    font-size: 48px;
+    text-align: left;
+}
+
 /*Loading Spinner*/
 #spinnerSection{
     //min-height: 100vh;
@@ -170,4 +176,40 @@
     max-width: 5rem;
     width: 5rem;
     margin: 10px;
+}
+
+/*Proyectos*/
+#projects {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardsProjects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cardProject {
+    width: 22rem;
+    height: 27rem;
+    color: black;
+    background-color: white;
+    //opacity: 0.3;
+}
+
+.cardImgProject {
+    height: 11rem;
+}
+
+.cardBodyProject {
+    
+    opacity: 0.4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
