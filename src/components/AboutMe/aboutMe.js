@@ -10,7 +10,7 @@ const AboutMe = () => {
         setTimeout(() => {
             setLoading(false)
         }, 2000)
-    }, loading);
+    }, []);
 
     return (
         <>
