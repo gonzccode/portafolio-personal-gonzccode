@@ -141,5 +141,33 @@
 }
 
 #aboutMe p {
-    font-size: 22px;
+    font-size: 20px;
+}
+
+//Technologies
+#technologies {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#technologies h3 {
+    color: #1c76c5;
+    font-size: 48px;
+    text-align: left;
+}
+
+.iconsTechnologies {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.iconTechnologie {
+    max-width: 5rem;
+    width: 5rem;
+    margin: 10px;
 }
