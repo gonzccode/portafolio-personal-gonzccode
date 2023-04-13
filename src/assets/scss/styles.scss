@@ -1,0 +1,145 @@
+.blueText {
+    color: #1c76c5;
+    font-weight: bold;
+}
+
+/*Loading Spinner*/
+#spinnerSection{
+    //min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    
+}
+
+.spinnerLoading {
+    width: 4rem;
+    height: 4rem;
+    //margin-bottom: 50px;
+}
+
+
+//Navbar
+#navbarPortfolio {
+    background-color: #000000;
+    padding-top: 10px;
+    box-shadow: 0px 1px 5px #FFFFFF;
+}
+
+.navBrand {
+    color: #1c76c5;
+    font-size: 25px;
+}
+
+.navLink {
+    color: white;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.navLink:hover {
+    color: #1c76c5;
+}
+
+//Introduction
+#introduction {
+    /*background-color: #282c34;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+#introduction h4 {
+    font-size: 36px;
+}
+
+#introduction h3 {
+    color: #1c76c5;
+    font-size: 48px;
+}
+
+#introduction p {
+    font-size: 24px;
+}
+  
+.introductionLink {
+    color: #61dafb;
+}
+
+.introductionText {
+    text-align: left;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+
+.btnProject {
+    //background: #34C342;
+    background: #1c76c5;
+    border: 2px solid #FFFFFF;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 32px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        background: transparent;
+        border: 2px solid #1c76c5;
+        color: #1c76c5;
+    }
+}
+
+.btnContact {
+    background: transparent;
+    border: 2px solid #1c76c5;
+    color: #1c76c5;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        background: #1c76c5;
+        border: 2px solid #FFFFFF;
+        color: white;
+    }
+}
+
+.imagePortfolio {
+    height: 50vmin;
+    pointer-events: none;
+    margin-left: 25px;
+    margin-right: 10px;
+  }
+  
+//Sobre Mi
+#aboutMe {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    //-align-items: center;
+    justify-content: center;
+    //margin-top: -30px;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+#aboutMe h3 {
+    color: #1c76c5;
+    font-size: 48px;
+}
+
+#aboutMe p {
+    font-size: 22px;
+}
