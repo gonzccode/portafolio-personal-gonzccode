@@ -245,11 +245,27 @@
     justify-content: center;
 }
 
+.informationContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //padding-top: 100px;
+}
+
+.formContact {
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    width: 40vh;
+}
+
 .buttonsContact {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 100px;
+    //padding-top: 100px;
 }
 
 .buttonGithub {
@@ -257,7 +273,7 @@
     background-color: #1e293b;
     border: 1px solid #1e293b;
     border-radius: 20px;
-    padding: 25px 60px;
+    padding: 18px 50px;
     color: #FFFFFF;
 }
 
@@ -266,7 +282,7 @@
     background-color: #0ea5e9;
     border: 1px solid #0ea5e9;
     border-radius: 20px;
-    padding: 25px 60px;
+    padding: 18px 50px;
     color: #FFFFFF;
 }
 
@@ -274,7 +290,7 @@
     text-decoration: none;
     background-color: #ef4444;
     border: 1px solid #ef4444;
-    border-radius: 20px;
-    padding: 25px 60px;
+    border-radius: 15px;
+    padding: 15px 50px;
     color: #FFFFFF;
 }
