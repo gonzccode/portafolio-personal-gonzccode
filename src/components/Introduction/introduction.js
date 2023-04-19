@@ -37,7 +37,7 @@ const Introduction = () => {
                                 <a className='btnProject' href='/proyectos'>
                                     Proyectos
                                 </a>
-                                <a className='btnContact' href='/contacto'>
+                                <a className='btnContact' href='/contactame'>
                                     Contáctame
                                 </a>
 
