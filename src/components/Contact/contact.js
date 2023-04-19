@@ -79,7 +79,7 @@ const Contact = () => {
                                 <textarea type='text' className='form-control' id='message' placeholder='Ingrese su mensaje' required></textarea><br/>
                                 <button className='buttonEmail' type='submit'>
                                     <strong>
-                                        <BsEnvelopeAtFill/>  Email
+                                        <BsEnvelopeAtFill/>  Enviar
                                     </strong>
                                 </button>
                             </form>
