@@ -3,6 +3,7 @@ import { Spinner } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
 import { BsEnvelopeAtFill } from "react-icons/bs";
 import emailjs from '@emailjs/browser';
 
@@ -78,9 +79,11 @@ const Contact = () => {
                                 </label>
                                 <textarea type='text' className='form-control' id='message' placeholder='Ingrese su mensaje' required></textarea><br/>
                                 <button className='buttonEmail' type='submit'>
-                                    <strong>
-                                        <BsEnvelopeAtFill/>  Enviar
-                                    </strong>
+                                    <h5>
+                                        <strong>
+                                            <BsEnvelopeAtFill/>  Enviar
+                                        </strong>
+                                    </h5>
                                 </button>
                             </form>
                         </div><br/>
@@ -89,6 +92,13 @@ const Contact = () => {
                                 <h4>
                                     <strong>
                                         <BsGithub/>  Github
+                                    </strong>
+                                </h4>
+                            </Link>
+                            <Link className='buttonWhatsapp' to={'https://api.whatsapp.com/send?phone=51946524336&text=Hola Gonzalo, vengo de tu web. Estoy interesado en trabajar contigo.'} target='_blank'>
+                                <h4>
+                                    <strong>
+                                        <BsWhatsapp/>  Whatsapp
                                     </strong>
                                 </h4>
                             </Link>
