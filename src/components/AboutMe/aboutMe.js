@@ -38,7 +38,7 @@ const AboutMe = () => {
                 </p>
                 <p>
                     <span className='blueText'>Disfruto mucho programar</span> y crear soluciones innovadoras, 
-                    estoy en constante aprendizaje y retando a nuevos desafíos. 
+                    estoy en constante aprendizaje y retándome a nuevos desafíos. 
                     Mi objetivo profesional es liderar e innovar en el sector del <span className='blueText'>desarrollo de software.</span>
                 </p>
             </div>
